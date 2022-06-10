@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 
-int main()
+int main() //3의 제곱
 {
 	for (int i = 1; i < 1000; i=i)
 	{
