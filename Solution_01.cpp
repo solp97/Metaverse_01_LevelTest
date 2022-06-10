@@ -19,7 +19,7 @@ void swap(int& a, int& b)
 
 }
 
-int main()
+int main() //스왑
 {
 	int a = 14;
 	int b = 66;
