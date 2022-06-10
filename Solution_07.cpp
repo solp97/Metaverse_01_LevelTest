@@ -24,8 +24,8 @@ int main()
 			}
 			printf("\n");
 		}
-		printf("ÇöÀç %dÁÙÀÇ ºù°í°¡ ¿Ï¼ºµÇ¾ú½À´Ï´Ù.\n", count);
-		printf("¼ıÀÚ¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä : ");
+		printf("í˜„ì¬ %dì¤„ì˜ ë¹™ê³ ê°€ ì™„ì„±ë˜ì—ˆìŠµë‹ˆë‹¤.\n", count);
+		printf("ìˆ«ìë¥¼ ì…ë ¥í•´ ì£¼ì„¸ìš” : ");
 		int inputNum = 0;
 		scanf_s("%d", inputNum);
 		for (i = 0; i < 5; i++)
