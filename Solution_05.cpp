@@ -1,19 +1,18 @@
 #include <iostream>
 
-int main()
+int main() //ì…ë ¥ê°’ ëœë¤ìƒì„±
 {
 	int num = 0;
 	int num2 = 0;
-	printf("ÃÖ´ë°ª : ");
+	printf("ìµœëŒ€ê°’ : ");
 	scanf_s("%d", &num);
-	printf("»ı¼º °¹¼ö :");
+	printf("ìƒì„± ê°¯ìˆ˜ :");
 	scanf_s(" %d", &num2);
-	int temp = 0;
+	// int temp = 0;//ë˜‘ê°™ì€ê°’ ë°©ì§€ìš©
 
-	for (int i = 0; i < num2; i++)
+	for (int i = 0; i < num2; i++)//ì¶œë ¥
 	{
-
-		printf("»ÌÈù¹øÈ£´Â = %d\n", rand()% num);
+		printf("ë½‘íŒë²ˆí˜¸ëŠ” = %d\n", rand()% num);
 	}
 	return 0;
 }
