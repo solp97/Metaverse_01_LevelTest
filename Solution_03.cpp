@@ -1,6 +1,6 @@
 #include <iostream>
 
-void main()
+void main() //별피라미드
 {
     for (int i = 0; i <= 4; i++) 
     {
